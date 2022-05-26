@@ -1,0 +1,114 @@
+body {
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    padding-top: 60px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.header {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 10px 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.brand {
+    max-width: 120px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    background-color: #ff5c5c;
+    display: inline-block;
+}
+.nav a {
+    color: #fff;
+    display: block;
+    height: 20px;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: gray;
+    
+}
+.nav a.active {
+    color: #fff;
+    background: gray;
+}
+.name {
+    padding: 7px;
+}
+.name-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.photo-banner {
+    background-color: #ff5c5c;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.lastest-projects-home {
+    background-color: #ff5c5c;
+    color: #fff;
+    padding: 50px;
+    position: center;
+}
+.logo-project {
+    width: 30px;
+    height: 30px;
+}
+
+.text-about-home {
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    background: grey;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: block;
+    justify-content: center;    
+}
+.footer-contact a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-medias {
+
+}
+
+.footer-contact address {
+    margin-bottom: 20px;
+}

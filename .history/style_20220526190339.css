@@ -1,0 +1,373 @@
+body {
+    font-family: 'IBM Plex Mono';
+    font-size: 18px;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.header {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    padding: 10px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.brand {
+    max-width: 120px;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li {
+    background-color: #ff5c5c;
+    display: inline-block;
+}
+
+.nav a {
+    color: #fff;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: gray;
+
+}
+
+.nav a.active {
+    color: #fff;
+    background: gray;
+}
+
+.name {
+    padding: 7px;
+}
+
+.name-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.photo-banner {
+    background-color: #ff5c5c;
+    width: 500px;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.lastest-projects-home {
+    background-color: #ff5c5c;
+    color: #fff;
+    padding: 50px;
+    position: center;
+}
+
+.logo-project {
+    width: 30px;
+    height: 30px;
+}
+
+.text-about-home {
+    margin: 90px;
+    top: 808px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+}
+
+.project {
+    padding: 90px;
+    color: black;
+}
+
+.title-project {
+    position: absolute;
+    width: 800px;
+    height: 57px;
+    left: 283px;
+    top: 156px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.text-project {
+    position: absolute;
+    width: 800px;
+    height: 120px;
+    left: 283px;
+    top: 233px;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+
+    color: #363636;
+}
+
+.text-one {
+    position: absolute;
+    width: 800px;
+    height: 120px;
+    left: 283px;
+    top: 980px;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.text-two {
+    position: absolute;
+    width: 800px;
+    height: 120px;
+    left: 285px;
+    top: 1750px;
+
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.text-three {
+    position: absolute;
+    width: 800px;
+    left: 239px;
+    top: 2580px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+
+    color: black;
+}
+
+.photo-one {
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 40px;
+    top: 380px;
+
+}
+
+.photo-two {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    left: 75px;
+    top: 1070px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+}
+
+.photo-three {
+    position: absolute;
+    Top: 1950px;
+    Left: 35px;
+}
+
+.about-me-text {
+    line-height: 30px;
+    padding: 5px 70px;
+}
+
+.work {
+    position: absolute;
+
+    height: 1000px;
+    left: 403px;
+    top: 233px;
+
+
+    line-height: 30px;
+    /* or 200% */
+
+    display: flex;
+    align-items: center;
+
+    color: black;
+
+}
+
+.footer-about {
+    position: relative;
+    top: 270px;
+}
+
+.footer-project {
+    top: 2300px;
+    position: relative;
+}
+
+.footer {
+    color: #fff;
+    background: grey;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: block;
+    justify-content: center;
+}
+
+.footer-contact a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-medias {}
+
+.social-medias li {
+    display: inline-block;
+}
+
+.social-meidas a {
+    display: block;
+    font-size: 25px;
+    padding: 20px 10px;
+
+}
+
+.logo-socialmedia {
+    width: 20px;
+    padding: 10px;
+}
+
+.footer-contact address {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.page-contact {
+    margin: 0px 30px 30px;
+}
+
+.page-contact-info {
+    padding-left: 30px;
+}
+
+.page-contact-info a,
+.page-contact-info address {
+    color: black;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.page-contact-info h3 {
+    color: #78706e;
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+
+.page-contact-form {
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-item {
+    width: 100%;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+}
+
+.form-item:focus {
+    outline: none;
+    border-color: #ff5c5c;
+}
+
+.btn {
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    background: #ff5c5c;
+    border: 1px solid #ff5c5c;
+
+    @media screen and (min-width: 768px) {
+        body {
+            padding-top: 80px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav a {
+            padding: 20px 10px;
+        }
+
+        .work {
+            position: relativo;
+            width: 335px;
+            height: 910px;
+            left: 20px;
+            top: 137px;
+
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 26px;
+            /* or 200% */
+
+            display: flex;
+            align-items: center;
+
+        }
+    }

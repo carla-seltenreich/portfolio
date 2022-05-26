@@ -1,0 +1,19 @@
+.header {}
+
+.container {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.26%;
+    bottom: 0%;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+}

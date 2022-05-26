@@ -1,0 +1,48 @@
+.header {
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.26%;
+    bottom: 0%;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #6C6C6C;
+}
+.nav a.active {
+    color: #fff;
+    background: #6C6C6C;
+}
+
+.banner {
+
+}
+.photo-banner {
+    position: absolute;
+width: 1000px;
+height: 500px;
+left: 183px;
+top: 253px;
+}
